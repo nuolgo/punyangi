@@ -23,10 +23,10 @@
 const BUYER_CONFIG = {
 
   // 🛒 바이어 접근 비밀번호 (SHA-256 해시값)
-  password: 'ae19736443e641c762e83296a0ce230e6798446a2d01b8a04a5ad5538d84677a',
+  password: '42169e4284609e061f5b7ac96df6a4b074b37b08abe3a12bc1e42135a75210bc',
 
   // 🛡️ 운영자 비밀번호 (SHA-256 해시값)
-  adminPassword: '5b300789ac5ba4a9f5403342fba939e1c5a118be60e0600792159478147df9c2',
+  adminPassword: 'fe4fd48f23b328fe9f8cb37f60f8bbf21779528a4784fc5ff19c8e65ce392a08',
 
   // ✅ 구글 드라이브 제품 이미지 파일 ID
   images: [

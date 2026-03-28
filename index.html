@@ -638,8 +638,16 @@
               maxlength="20"
               autocomplete="new-password"
             />
-            <button type="button" class="buyer__eye-btn" data-for="buyerPassword" tabindex="-1" aria-label="비밀번호 보기">👁</button>
+
           </div>
+          <label class="buyer__show-pw">
+            <input type="checkbox" id="buyerShowPw" onchange="
+              var inp = document.getElementById('buyerPassword');
+              inp.type = this.checked ? 'text' : 'password';
+            " />
+            <span class="buyer__show-pw-box"></span>
+            <span class="buyer__show-pw-label">Show Password</span>
+          </label>
           <button type="submit" class="buyer__btn">Access →</button>
         </form>
         <p class="buyer__hint" id="buyerHint"></p>
@@ -747,9 +755,9 @@
    ============================================= */
 const BUYER_CONFIG = {
   // SHA-256 해시값 (원본: nuolgo2024)
-  password: 'ae19736443e641c762e83296a0ce230e6798446a2d01b8a04a5ad5538d84677a',
+  password: '42169e4284609e061f5b7ac96df6a4b074b37b08abe3a12bc1e42135a75210bc',
   // SHA-256 해시값 (원본: nuolgogloble0!)
-  adminPassword: '5b300789ac5ba4a9f5403342fba939e1c5a118be60e0600792159478147df9c2',
+  adminPassword: 'fe4fd48f23b328fe9f8cb37f60f8bbf21779528a4784fc5ff19c8e65ce392a08',
   images: [
     { id: '1oVfRONiLNw0J-4Z8eESWquaIvYwkbFyI', label: 'Shine Muscat', icon: '🍇' },
     { id: '1BFhEtee0sHDghfzs2esMOpw7U_IhY__d', label: 'Peach',        icon: '🍑' },
