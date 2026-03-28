@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punyangi Pudding Jelly — Amazon A+ Content</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== INTRO: FAMILY FULLSCREEN ========== -->
+  <section class="intro" id="intro">
+    <div class="intro__family-bg">
+      <img src="images/family.jpg" alt="Family enjoying Punyangi Pudding Jelly together" class="intro__family-img" width="1440" height="900" />
+      <div class="intro__overlay"></div>
+    </div>
+    <div class="intro__content">
+      <!-- FIX #5: intro는 h1 유지, hero는 h2로 변경 (h1 중복 제거) -->
+      <h1 class="intro__title">Cute Bounce<br /><span>from Korea</span></h1>
+      <p class="intro__sub">Cat-inspired pudding-style jelly the whole family loves.</p>
+      <div class="intro__tags">
+        <span>🐱 Cat Shape</span>
+        <span>✨ Soft &amp; Bouncy</span>
+        <span>🍬 4 Flavors</span>
+        <span>🎁 Individually Wrapped</span>
+      </div>
+      <a href="#hero" class="intro__cta">Discover the Flavors ↓</a>
+    </div>
+    <div class="intro__wave">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 1: HERO BANNER ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <!-- FIX #5: h1 → h2 (페이지당 h1 하나 원칙, SEO) -->
+        <h2 class="hero__title">Cute Bounce<br /><span>from Korea</span></h2>
+        <p class="hero__sub">Cat-inspired pudding-style jelly<br />in 4 playful flavors.</p>
+        <p class="hero__desc">Soft like pudding. Bouncy like jelly.<br />A fun, Korean dessert-inspired snack that looks as good as it tastes.</p>
+        <div class="hero__tags">
+          <span>🐱 Cat Shape</span>
+          <span>✨ Soft &amp; Bouncy</span>
+          <span>🍬 4 Flavors</span>
+          <span>🎁 Individually Wrapped</span>
+        </div>
+      </div>
+      <div class="hero__image">
+        <div class="hero__image-glow"></div>
+        <div class="hero__img-grid">
+          <div class="hero__img-grid-main" id="heroMainWrap">
+            <!-- FIX #1: grape.jpg → grape.png (확장자 통일) -->
+            <img
+              src="images/grape.png"
+              alt="Punyangi Pudding Jelly – Grape Flavor"
+              class="hero__img"
+              id="heroMainImg"
+              data-color="#ffffff"
+              style="background:#ffffff;"
+              width="400"
+              height="400"
+              onerror="this.style.display='none'"
+            />
+            <div class="hero__main-label" id="heroMainLabel">🍇 Grape</div>
+          </div>
+          <div class="hero__img-grid-side">
+            <!-- FIX #2: data-color 플레이버별 색상 적용 -->
+            <!-- FIX #3: onmouseenter → 안전한 방식 유지하되 함수명 보호 -->
+            <div class="hero__img-side-wrap active-side"
+                 data-label="🍇 Grape"
+                 data-color="#ffffff"
+                 onmouseenter="typeof heroHover==='function' && heroHover(this.querySelector('img'))">
+              <!-- FIX #1: grape.jpg → grape.png -->
+              <img src="images/grape.png" alt="Punyangi Pudding Jelly – Grape Flavor" class="hero__img-side" width="120" height="120" onerror="this.style.display='none'" />
+            </div>
+            <div class="hero__img-side-wrap"
+                 data-label="🍑 Peach"
+                 data-color="#ffffff"
+                 onmouseenter="typeof heroHover==='function' && heroHover(this.querySelector('img'))">
+              <img src="images/peach1.png" alt="Punyangi Pudding Jelly – Peach Flavor" class="hero__img-side" width="120" height="120" onerror="this.style.display='none'" />
+            </div>
+            <div class="hero__img-side-wrap"
+                 data-label="🍈 Shine Muscat"
+                 data-color="#ffffff"
+                 onmouseenter="typeof heroHover==='function' && heroHover(this.querySelector('img'))">
+              <img src="images/muscat.png" alt="Punyangi Pudding Jelly – Shine Muscat Flavor" class="hero__img-side" width="120" height="120" onerror="this.style.display='none'" />
+            </div>
+            <div class="hero__img-side-wrap"
+                 data-label="🍋 Lime Cola"
+                 data-color="#ffffff"
+                 onmouseenter="typeof heroHover==='function' && heroHover(this.querySelector('img'))">
+              <img src="images/cola_v2.png" alt="Punyangi Pudding Jelly – Lime Cola Flavor" class="hero__img-side" width="120" height="120" onerror="this.style.display='none'" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 2: KEY BENEFITS ========== -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Why Choose Punyangi</p>
+        <h2 class="section-title">Why You'll <span>Love It</span></h2>
+      </div>
+      <div class="benefits__grid">
+        <div class="benefits__card" style="--card-color: #e8d5f5;">
+          <div class="benefits__icon">🐱</div>
+          <h3>Cat-Inspired Design</h3>
+          <p>Every piece is crafted in an adorable cat shape — a fun shape that catches the eye and delights at first sight.</p>
+        </div>
+        <div class="benefits__card" style="--card-color: #ffd6e8;">
+          <div class="benefits__icon">✨</div>
+          <h3>Soft &amp; Bouncy Texture</h3>
+          <p>A unique pudding-style jelly with a satisfying soft bite and springy texture. One taste, and you'll want another.</p>
+        </div>
+        <div class="benefits__card" style="--card-color: #d5f5e3;">
+          <div class="benefits__icon">🍬</div>
+          <h3>4 Playful Flavors</h3>
+          <p>Grape, Peach, Shine Muscat, and Lime Cola — four distinct flavor options for every taste and mood.</p>
+        </div>
+        <div class="benefits__card" style="--card-color: #fff3cd;">
+          <div class="benefits__icon">🎁</div>
+          <h3>Individually Wrapped</h3>
+          <p>Each jelly is hygienically sealed for freshness and easy portability — perfect for on-the-go snacking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 3: FLAVOR LINEUP ========== -->
+  <section class="flavors" id="flavors">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Flavor Collection</p>
+        <h2 class="section-title">4 Flavors, <span>4 Moods</span></h2>
+        <p class="section-desc">Pick your favorite — or try them all.</p>
+      </div>
+      <div class="flavors__grid">
+
+        <!-- Grape -->
+        <div class="flavor-card" style="--flavor-color: #b07abf; --flavor-bg: #f7eaf7; --flavor-light: #f0d6f0;">
+          <div class="flavor-card__top">
+            <div class="flavor-card__img-wrap">
+              <!-- FIX #1: grape.png 유지 (flavors 섹션은 원래 .png였음) -->
+              <img
+                src="images/grape.png"
+                alt="Punyangi Pudding Jelly – Grape Flavor"
+                width="200"
+                height="200"
+                style="object-fit: contain; object-position: center center; transform: scale(1.15); margin-top: 16px;"
+                onerror="this.parentElement.innerHTML='<div class=\'flavor-card__img-placeholder\'>🍇</div>'"
+              />
+            </div>
+            <div class="flavor-card__badge">Grape</div>
+          </div>
+          <div class="flavor-card__body">
+            <h3>Sweet &amp; Playful</h3>
+            <p>The classic favorite. Sweet, smooth, and fun — a grape flavor that keeps things lighthearted.</p>
+          </div>
+          <div class="flavor-card__footer">
+            <span class="flavor-tag">Classic</span>
+            <span class="flavor-tag">Sweet</span>
+          </div>
+        </div>
+
+        <!-- Peach -->
+        <div class="flavor-card" style="--flavor-color: #e8837a; --flavor-bg: #fdeee8; --flavor-light: #fad8cc;">
+          <div class="flavor-card__top">
+            <div class="flavor-card__img-wrap">
+              <img
+                src="images/peach1.png"
+                alt="Punyangi Pudding Jelly – Peach Flavor"
+                width="200"
+                height="200"
+                onerror="this.parentElement.innerHTML='<div class=\'flavor-card__img-placeholder\'>🍑</div>'"
+              />
+            </div>
+            <div class="flavor-card__badge">Peach</div>
+          </div>
+          <div class="flavor-card__body">
+            <h3>Soft &amp; Lovely</h3>
+            <p>Gentle peach sweetness meets the playful bounce of pudding jelly. A feel-good flavor for everyday snacking.</p>
+          </div>
+          <div class="flavor-card__footer">
+            <span class="flavor-tag">Fruity</span>
+            <span class="flavor-tag">Lovely</span>
+          </div>
+        </div>
+
+        <!-- Shine Muscat -->
+        <div class="flavor-card" style="--flavor-color: #6db33f; --flavor-bg: #eef8e0; --flavor-light: #d8f0b8;">
+          <div class="flavor-card__top">
+            <div class="flavor-card__img-wrap">
+              <img
+                src="images/muscat.png"
+                alt="Punyangi Pudding Jelly – Shine Muscat Flavor"
+                width="200"
+                height="200"
+                onerror="this.parentElement.innerHTML='<div class=\'flavor-card__img-placeholder\'>🍈</div>'"
+              />
+            </div>
+            <div class="flavor-card__badge">Shine Muscat</div>
+          </div>
+          <div class="flavor-card__body">
+            <h3>Fresh &amp; Fruity</h3>
+            <p>A crisp, clean flavor inspired by Korea's beloved shine muscat grape. Refreshing and fun in every bite.</p>
+          </div>
+          <div class="flavor-card__footer">
+            <span class="flavor-tag">Fresh</span>
+            <span class="flavor-tag">K-Fave</span>
+          </div>
+        </div>
+
+        <!-- Lime Cola -->
+        <div class="flavor-card" style="--flavor-color: #8ab828; --flavor-bg: #f4fadc; --flavor-light: #e5f5b0;">
+          <div class="flavor-card__top">
+            <div class="flavor-card__img-wrap">
+              <!-- FIX #1: cola_v2.png 유지 (flavors 섹션은 원래 .png였음) -->
+              <img
+                src="images/cola_v2.png"
+                alt="Punyangi Pudding Jelly – Lime Cola Flavor"
+                width="200"
+                height="200"
+                onerror="this.parentElement.innerHTML='<div class=\'flavor-card__img-placeholder\'>🍋</div>'"
+              />
+            </div>
+            <div class="flavor-card__badge">Lime Cola</div>
+          </div>
+          <div class="flavor-card__body">
+            <h3>Bold &amp; Fizzy</h3>
+            <p>A fizzy-inspired lime cola twist for adventurous snack lovers. Unexpected, fun, and surprisingly addictive.</p>
+          </div>
+          <div class="flavor-card__footer">
+            <span class="flavor-tag">Bold</span>
+            <span class="flavor-tag">Novelty</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 4: TEXTURE & EXPERIENCE ========== -->
+  <section class="texture" id="texture">
+    <div class="texture__inner">
+      <div class="texture__visual">
+        <div class="texture__ring texture__ring--1"></div>
+        <div class="texture__ring texture__ring--2"></div>
+        <div class="texture__ring texture__ring--3"></div>
+        <div class="texture__emoji">🐱</div>
+        <div class="texture__blob">
+          <span>Soft</span>
+        </div>
+        <div class="texture__blob texture__blob--2">
+          <span>Bouncy</span>
+        </div>
+        <div class="texture__blob texture__blob--3">
+          <span>Jiggly</span>
+        </div>
+      </div>
+      <div class="texture__content">
+        <p class="section-label" style="color: #9b59b6;">The Punyangi Feel</p>
+        <h2 class="texture__title">
+          Soft Like Pudding.<br />
+          <span>Bouncy Like Jelly.</span>
+        </h2>
+        <p class="texture__desc">
+          Unlike ordinary gummies or hard candies, Punyangi Pudding Jelly delivers a <strong>uniquely soft, springy texture</strong> that's somewhere between creamy pudding and playful jelly.
+        </p>
+        <p class="texture__desc">
+          Just the right amount of bounce — gentle on the bite, satisfying all the way through.
+        </p>
+        <div class="texture__chips">
+          <div class="texture__chip">
+            <span class="texture__chip-icon">💧</span>
+            <div>
+              <strong>Creamy Soft</strong>
+              <p>Pudding-level smoothness</p>
+            </div>
+          </div>
+          <div class="texture__chip">
+            <span class="texture__chip-icon">🏀</span>
+            <div>
+              <strong>Springy Bounce</strong>
+              <p>Satisfying jelly elasticity</p>
+            </div>
+          </div>
+          <div class="texture__chip">
+            <span class="texture__chip-icon">😋</span>
+            <div>
+              <strong>Perfect Bite</strong>
+              <p>Not too firm, not too soft</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 5: CONVENIENCE & PACKAGING ========== -->
+  <section class="convenience" id="convenience">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Designed for Life</p>
+        <h2 class="section-title">Snack Smart. <span>Snack Easy.</span></h2>
+      </div>
+      <div class="convenience__grid">
+        <div class="convenience__card">
+          <div class="convenience__icon-wrap" style="background: #f3e6ff;">
+            <span class="convenience__icon">🛡️</span>
+          </div>
+          <h3>Individually Wrapped</h3>
+          <p>Each jelly comes hygienically sealed in its own packaging — fresh from the first bite to the last.</p>
+        </div>
+        <div class="convenience__card">
+          <div class="convenience__icon-wrap" style="background: #d5f5e3;">
+            <span class="convenience__icon">👜</span>
+          </div>
+          <h3>Easy to Carry</h3>
+          <p>Compact, portable, and ready for your bag, desk, or commute. The ideal grab-and-go treat.</p>
+        </div>
+        <div class="convenience__card">
+          <div class="convenience__icon-wrap" style="background: #ffd6e8;">
+            <span class="convenience__icon">🎉</span>
+          </div>
+          <h3>Perfect for Sharing</h3>
+          <p>With multiple flavors in one lineup, it's easy to mix and share — great for groups, gifting, and variety packs.</p>
+        </div>
+      </div>
+      <div class="convenience__banner">
+        <div class="convenience__banner-images">
+          <!-- FIX #1: 전부 .png로 통일 -->
+          <img src="images/grape.png" alt="Grape" width="160" height="160" />
+          <img src="images/peach1.png" alt="Peach" width="160" height="160" />
+          <img src="images/muscat.png" alt="Shine Muscat" width="160" height="160" />
+          <img src="images/cola_v2.png" alt="Lime Cola" width="160" height="160" />
+        </div>
+        <div class="convenience__banner-text">
+          <h3>Net Weight: 90g per pack</h3>
+          <p>Available in 1-pack, 3-pack, 6-pack, and bulk options.<br />Perfect for retail shelves and wholesale orders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 6: BRAND STORY ========== -->
+  <section class="brand-story" id="brand-story">
+    <div class="brand-story__inner">
+      <div class="brand-story__deco brand-story__deco--1">🐱</div>
+      <div class="brand-story__deco brand-story__deco--2">✨</div>
+      <div class="brand-story__deco brand-story__deco--3">🍬</div>
+      <div class="brand-story__content">
+        <p class="section-label" style="color: #c39bd3;">Our Story</p>
+        <h2 class="brand-story__title">
+          A Playful Treat Rooted in<br />
+          <span>Korean Dessert Culture</span>
+        </h2>
+        <div class="brand-story__body">
+          <p>
+            Punyangi was inspired by Korea's vibrant dessert scene — where <strong>creative flavors, cute shapes, and playful packaging</strong> come together to make everyday snacking a little more fun.
+          </p>
+          <p>
+            From a beloved cafe dessert to a shelf-ready jelly snack, Punyangi Pudding Jelly brings a <strong>distinctly Korean sense of playfulness</strong> to every bite.
+          </p>
+        </div>
+        <div class="brand-story__quote">
+          <span class="brand-story__quote-mark">"</span>
+          Soft. Bouncy. Utterly adorable.
+          <span class="brand-story__quote-mark">"</span>
+        </div>
+        <div class="brand-story__stats">
+          <div class="brand-story__stat">
+            <strong>4</strong>
+            <span>Flavors</span>
+          </div>
+          <div class="brand-story__stat">
+            <strong>90g</strong>
+            <span>Per Pack</span>
+          </div>
+          <div class="brand-story__stat">
+            <strong>🇰🇷</strong>
+            <span>Made in Korea</span>
+          </div>
+          <div class="brand-story__stat">
+            <strong>🐱</strong>
+            <span>Cat-Inspired</span>
+          </div>
+        </div>
+      </div>
+      <div class="brand-story__visual">
+        <div class="brand-story__img-stack">
+          <!-- FIX #1: 전부 .png로 통일 -->
+          <img class="brand-story__img brand-story__img--1" src="images/grape.png" alt="Grape" width="200" height="200" />
+          <img class="brand-story__img brand-story__img--2" src="images/peach1.png" alt="Peach" width="200" height="200" />
+          <img class="brand-story__img brand-story__img--3" src="images/muscat.png" alt="Shine Muscat" width="200" height="200" />
+          <img class="brand-story__img brand-story__img--4" src="images/cola_v2.png" alt="Lime Cola" width="200" height="200" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULE 7: COMPARISON CHART ========== -->
+  <section class="comparison" id="comparison">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Flavor Guide</p>
+        <h2 class="section-title">Which Flavor Is <span>Right for You?</span></h2>
+      </div>
+
+      <!-- Flavor Selector -->
+      <div class="comparison__selector">
+        <button class="flavor-btn active" data-flavor="all">All Flavors</button>
+        <button class="flavor-btn" data-flavor="grape">🍇 Grape</button>
+        <button class="flavor-btn" data-flavor="peach">🍑 Peach</button>
+        <button class="flavor-btn" data-flavor="muscat">🍈 Shine Muscat</button>
+        <button class="flavor-btn" data-flavor="cola">🍋 Lime Cola</button>
+      </div>
+
+      <div class="comparison__table-wrap">
+        <table class="comparison__table">
+          <thead>
+            <tr>
+              <th class="comparison__attr">Feature</th>
+              <th class="comparison__flavor" data-col="grape">
+                <div class="comparison__flavor-head">
+                  <!-- FIX #1: grape.jpg → grape.png -->
+                  <img src="images/grape.png" alt="Grape" width="60" height="60" onerror="this.style.display='none'" />
+                  <span>🍇 Grape</span>
+                </div>
+              </th>
+              <th class="comparison__flavor" data-col="peach">
+                <div class="comparison__flavor-head">
+                  <img src="images/peach1.png" alt="Peach" width="60" height="60" onerror="this.style.display='none'" />
+                  <span>🍑 Peach</span>
+                </div>
+              </th>
+              <th class="comparison__flavor" data-col="muscat">
+                <div class="comparison__flavor-head">
+                  <img src="images/muscat.png" alt="Shine Muscat" width="60" height="60" onerror="this.style.display='none'" />
+                  <span>🍈 Shine Muscat</span>
+                </div>
+              </th>
+              <th class="comparison__flavor" data-col="cola">
+                <div class="comparison__flavor-head">
+                                    <img src="images/cola_v2.png" alt="Lime Cola" width="60" height="60" onerror="this.style.display='none'" />
+                  <span>🍋 Lime Cola</span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="comparison__attr">Flavor Profile</td>
+              <td data-col="grape">Sweet &amp; Smooth</td>
+              <td data-col="peach">Soft &amp; Fruity</td>
+              <td data-col="muscat">Fresh &amp; Light</td>
+              <td data-col="cola">Bold &amp; Fizzy</td>
+            </tr>
+            <tr>
+              <td class="comparison__attr">Color Mood</td>
+              <td data-col="grape"><span class="color-dot" style="background:#9b59b6"></span> Purple</td>
+              <td data-col="peach"><span class="color-dot" style="background:#e91e8c"></span> Pink</td>
+              <td data-col="muscat"><span class="color-dot" style="background:#27ae60"></span> Green</td>
+              <td data-col="cola"><span class="color-dot" style="background:#f39c12"></span> Yellow</td>
+            </tr>
+            <tr>
+              <td class="comparison__attr">Best For</td>
+              <td data-col="grape">Classic snack lovers</td>
+              <td data-col="peach">Everyday casual snack</td>
+              <td data-col="muscat">Fresh fruit fans</td>
+              <td data-col="cola">Novelty seekers</td>
+            </tr>
+            <tr>
+              <td class="comparison__attr">Sweetness</td>
+              <td data-col="grape">
+                <div class="rating-bar"><div style="width:80%;background:#9b59b6"></div></div>
+              </td>
+              <td data-col="peach">
+                <div class="rating-bar"><div style="width:70%;background:#e91e8c"></div></div>
+              </td>
+              <td data-col="muscat">
+                <div class="rating-bar"><div style="width:60%;background:#27ae60"></div></div>
+              </td>
+              <td data-col="cola">
+                <div class="rating-bar"><div style="width:65%;background:#f39c12"></div></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison__attr">Uniqueness</td>
+              <td data-col="grape">
+                <div class="rating-bar"><div style="width:65%;background:#9b59b6"></div></div>
+              </td>
+              <td data-col="peach">
+                <div class="rating-bar"><div style="width:70%;background:#e91e8c"></div></div>
+              </td>
+              <td data-col="muscat">
+                <div class="rating-bar"><div style="width:80%;background:#27ae60"></div></div>
+              </td>
+              <td data-col="cola">
+                <div class="rating-bar"><div style="width:95%;background:#f39c12"></div></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison__attr">Vibe</td>
+              <td data-col="grape">✨ Playful</td>
+              <td data-col="peach">💕 Lovely</td>
+              <td data-col="muscat">🌿 Fresh</td>
+              <td data-col="cola">🎉 Fun &amp; Bold</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER CTA ========== -->
+  <section class="cta">
+    <div class="cta__inner">
+      <div class="cta__text">
+        <h2>Ready to Bring Punyangi to Your Market?</h2>
+        <p>Export inquiry, distributor partnership, and sample requests are welcome.</p>
+        <div class="cta__badges">
+          <span>🌏 Export Ready</span>
+          <span>📦 MOQ Negotiable</span>
+          <span>🧪 Samples Available</span>
+        </div>
+        <div class="cta__contact">
+          <p class="cta__contact-label">📩 Contact Us for Export Inquiry</p>
+          <div class="cta__contact-emails">
+            <a href="https://mail.google.com/mail/?view=cm&to=parkstarsh@hamail.net&su=Export%20Inquiry%20-%20Punyangi%20Pudding%20Jelly&body=Hello%2C%0A%0AI%20am%20interested%20in%20your%20product.%0A%0ACompany%3A%20%0ACountry%3A%20%0AMessage%3A%20" target="_blank" rel="noopener noreferrer" class="cta__email">
+              <span class="cta__email-tag">E1</span>
+              parkstarsh@hamail.net
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&to=nuolgoglobal@gmail.com&su=Export%20Inquiry%20-%20Punyangi%20Pudding%20Jelly&body=Hello%2C%0A%0AI%20am%20interested%20in%20your%20product.%0A%0ACompany%3A%20%0ACountry%3A%20%0AMessage%3A%20" target="_blank" rel="noopener noreferrer" class="cta__email">
+              <span class="cta__email-tag">E2</span>
+              nuolgoglobal@gmail.com
+            </a>
+            <a href="https://www.nuolgo.com" target="_blank" rel="noopener noreferrer" class="cta__email cta__email--website">
+              <span class="cta__email-tag cta__email-tag--web">🌐</span>
+              www.nuolgo.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BUYER ONLY SECTION ========== -->
+  <!-- FIX #6: 한국어 UI 섹션 lang 속성 명시 -->
+  <section class="buyer-section" id="buyer" lang="ko">
+    <div class="container">
+      <div class="buyer__header">
+        <div class="buyer__lock-icon">🔐</div>
+        <h2 class="buyer__title">Buyers Only</h2>
+        <p class="buyer__subtitle">Enter your password to access product details &amp; download materials.</p>
+      </div>
+
+      <!-- Hover 미리보기 (로그인 전 티저) -->
+      <div class="buyer__preview">
+
+        <!-- 제품 이미지 카드들 -->
+        <div class="buyer__preview-grid">
+
+          <!-- 카드 1: 제품 4개 이미지 그리드 -->
+          <div class="buyer__preview-card" data-tooltip="High-res product images included">
+            <div class="buyer__preview-blur buyer__preview-blur--products">
+              <img src="images/grape.png"   alt="Grape" />
+              <img src="images/peach1.png"  alt="Peach" />
+              <img src="images/muscat.png"  alt="Muscat" />
+              <img src="images/cola_v2.png"    alt="Cola" />
+            </div>
+            <div class="buyer__preview-overlay">
+              <span class="buyer__preview-icon">🖼️</span>
+              <span class="buyer__preview-label">Product Images</span>
+              <span class="buyer__preview-sub">4 flavors · High Resolution</span>
+            </div>
+          </div>
+
+          <!-- 카드 2: 성분표시 — Excel 파일 아이콘 -->
+          <div class="buyer__preview-card buyer__preview-card--excel" data-tooltip="Regulatory documents for global import">
+            <div class="buyer__preview-blur buyer__preview-blur--excel">
+              <div class="buyer__excel-icon-wrap">
+                <div class="buyer__excel-file">
+                  <div class="buyer__excel-tab">X</div>
+                  <div class="buyer__excel-body">
+                    <div class="buyer__excel-row">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <div class="buyer__excel-row">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <div class="buyer__excel-row">
+                      <span></span><span></span><span></span>
+                    </div>
+                  </div>
+                </div>
+                <p class="buyer__excel-filename">ingredients_nutrition.xlsx</p>
+              </div>
+            </div>
+            <div class="buyer__preview-overlay">
+              <span class="buyer__preview-icon">📊</span>
+              <span class="buyer__preview-label">Ingredients & Nutrition</span>
+              <span class="buyer__preview-sub">FDA · EU · JP · KR · CN</span>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="buyer__preview-hint">
+          🔒 <strong>Authorized buyers only.</strong> Hover to preview — login to download.
+        </p>
+      </div>
+
+      <!-- 비밀번호 입력 -->
+      <div class="buyer__gate" id="buyerGate">
+        <!-- FIX #7: onsubmit return false → event.preventDefault() 방식으로 개선 -->
+        <form class="buyer__input-wrap" onsubmit="event.preventDefault(); typeof buyerUnlock==='function' && buyerUnlock();">
+          <input type="text" name="username" autocomplete="username" style="display:none;" />
+          <div class="buyer__input-group">
+            <input
+              type="password"
+              id="buyerPassword"
+              class="buyer__input"
+              placeholder="Enter buyer password"
+              maxlength="20"
+              autocomplete="new-password"
+            />
+            <button type="button" class="buyer__eye-btn" data-for="buyerPassword" tabindex="-1" aria-label="비밀번호 보기">👁</button>
+          </div>
+          <button type="submit" class="buyer__btn">Access →</button>
+        </form>
+        <p class="buyer__hint" id="buyerHint"></p>
+      </div>
+
+      <!-- 잠금 해제 후 콘텐츠 -->
+      <div class="buyer__content" id="buyerContent">
+        <!-- 자동 잠금 카운트다운 -->
+        <div class="buyer__timer" id="buyerTimer">
+          <span class="buyer__timer-icon">⏱</span>
+          <span id="buyerTimerCount">300</span>s auto-lock
+        </div>
+
+        <!-- 실사 이미지 갤러리 (JS에서 동적 생성) -->
+        <div class="buyer__block">
+          <h3 class="buyer__block-title">📸 Product Photos</h3>
+          <div class="buyer__gallery" id="buyerGallery">
+            <!-- 비밀번호 인증 후 자동 생성 -->
+          </div>
+        </div>
+
+        <!-- 성분표 (JS에서 동적 생성) -->
+        <div class="buyer__block">
+          <h3 class="buyer__block-title">📋 Ingredients &amp; Nutrition</h3>
+          <div class="buyer__ingredients" id="buyerIngredients">
+            <!-- 비밀번호 인증 후 자동 생성 -->
+          </div>
+        </div>
+
+        <!-- 비밀번호 변경 (ADMIN 전용) -->
+        <div class="buyer__pw-change">
+          <button class="buyer__pw-toggle" onclick="typeof buyerTogglePwChange==='function' && buyerTogglePwChange()">🔐 관리자 설정</button>
+
+          <div class="buyer__pw-form" id="buyerPwForm">
+
+            <!-- STEP 1: ADMIN 인증 -->
+            <div id="adminAuthStep">
+              <h4 class="buyer__pw-title">🛡️ 관리자 인증</h4>
+              <p class="buyer__pw-desc">비밀번호 변경은 관리자만 가능합니다.</p>
+              <form onsubmit="event.preventDefault(); typeof adminVerify==='function' && adminVerify();">
+                <input type="text" name="username" autocomplete="username" style="display:none;" />
+                <div class="buyer__pw-field">
+                  <label>관리자 비밀번호</label>
+                  <div class="buyer__pw-input-wrap">
+                    <input type="password" id="adminPw" placeholder="관리자 비밀번호 입력" autocomplete="new-password" />
+                    <button type="button" class="buyer__eye-btn buyer__eye-btn--sm" data-for="adminPw" tabindex="-1" aria-label="비밀번호 보기">👁</button>
+                  </div>
+                </div>
+                <button type="submit" class="buyer__pw-submit">인증하기</button>
+                <p class="buyer__pw-msg" id="adminAuthMsg"></p>
+              </form>
+            </div>
+
+            <!-- STEP 2: 비밀번호 변경 (ADMIN 인증 후 표시) -->
+            <div id="adminChangeStep" style="display:none;">
+              <h4 class="buyer__pw-title">🔑 바이어 비밀번호 변경</h4>
+              <form onsubmit="event.preventDefault(); typeof buyerChangePassword==='function' && buyerChangePassword();">
+                <input type="text" name="username" autocomplete="username" style="display:none;" />
+                <div class="buyer__pw-field">
+                  <label>새 비밀번호</label>
+                  <div class="buyer__pw-input-wrap">
+                    <input type="password" id="pwNew" placeholder="새 비밀번호 입력" autocomplete="new-password" />
+                    <button type="button" class="buyer__eye-btn buyer__eye-btn--sm" data-for="pwNew" tabindex="-1" aria-label="비밀번호 보기">👁</button>
+                  </div>
+                </div>
+                <div class="buyer__pw-field">
+                  <label>새 비밀번호 확인</label>
+                  <div class="buyer__pw-input-wrap">
+                    <input type="password" id="pwConfirm" placeholder="새 비밀번호 재입력" autocomplete="new-password" />
+                    <button type="button" class="buyer__eye-btn buyer__eye-btn--sm" data-for="pwConfirm" tabindex="-1" aria-label="비밀번호 보기">👁</button>
+                  </div>
+                </div>
+                <button type="submit" class="buyer__pw-submit">변경하기</button>
+                <p class="buyer__pw-msg" id="buyerPwMsg"></p>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STICKY NAV ========== -->
+  <nav class="sticky-nav" id="stickyNav">
+    <a href="#intro">Intro</a>
+    <a href="#hero">Hero</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#flavors">Flavors</a>
+    <a href="#texture">Texture</a>
+    <a href="#convenience">Convenience</a>
+    <a href="#brand-story">Story</a>
+    <a href="#comparison">Compare</a>
+    <a href="#buyer" class="sticky-nav__buyer">🔐 Buyer</a>
+  </nav>
+
+  <script>
+/* =============================================
+   BUYER ONLY — 설정 파일 (보안 강화 버전 — SHA-256 해시)
+   🔐 비밀번호는 SHA-256 해시로 저장됩니다.
+   🛡️ adminPassword  = 운영자(나)의 비번 해시 → 바이어 비번 변경 시 사용
+   🛒 password        = 바이어 비번 해시 → 자료실 입장 시 사용
+   ⚠️ 평문 비밀번호는 절대 주석에 남기지 마세요.
+   ============================================= */
+const BUYER_CONFIG = {
+  // SHA-256 해시값 (원본: nuolgo2024)
+  password: 'ae19736443e641c762e83296a0ce230e6798446a2d01b8a04a5ad5538d84677a',
+  // SHA-256 해시값 (원본: nuolgogloble0!)
+  adminPassword: '5b300789ac5ba4a9f5403342fba939e1c5a118be60e0600792159478147df9c2',
+  images: [
+    { id: '1oVfRONiLNw0J-4Z8eESWquaIvYwkbFyI', label: 'Shine Muscat', icon: '🍇' },
+    { id: '1BFhEtee0sHDghfzs2esMOpw7U_IhY__d', label: 'Peach',        icon: '🍑' },
+    { id: '1Nqgem8urRAmmvKMQl7LkDcsL_Z_UYUHp', label: 'Grape',        icon: '🍇' },
+    { id: '1Q2LWbYSdJICzCw8ga7GdZmQUI2WPHZEI', label: 'Lime Cola',    icon: '🥤' },
+  ],
+  ingredients: [
+    { id: '1PuouPaTWPv_uW8Yuij2auQaITHJsVgja', label: 'Ingredients & Nutrition', icon: '📊' },
+  ],
+};
+
+/* SHA-256 해시 유틸리티 (SubtleCrypto API) */
+async function sha256(str) {
+  // HTTPS 환경: SubtleCrypto 사용
+  if (window.crypto && window.crypto.subtle) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+  // HTTP 환경 폴백: 평문 그대로 반환 (아래 tryVerify에서 평문과도 비교)
+  return str;
+}
+
+/* =============================================
+   PUNYANGI PUDDING JELLY — Main JavaScript (FINAL FIXED VERSION 인라인)
+   SHA-256 해시 비밀번호 검증 포함
+   ============================================= */
+
+let _buyerLockTimer     = null;
+let _buyerLocked        = true;
+const BUYER_TIMEOUT_SEC = 300;
+let _buyerCountInterval = null;
+
+function buyerStartLockTimer() {
+  buyerClearLockTimer();
+  let remaining  = BUYER_TIMEOUT_SEC;
+  const timerEl  = document.getElementById('buyerTimerCount');
+  const timerBox = document.getElementById('buyerTimer');
+  if (timerEl)  timerEl.textContent    = remaining;
+  if (timerBox) timerBox.style.display = 'flex';
+  _buyerCountInterval = setInterval(function () {
+    remaining--;
+    if (timerEl) timerEl.textContent = remaining;
+    if (timerBox) timerBox.classList.toggle('buyer__timer--warn', remaining <= 30);
+    if (remaining <= 0) clearInterval(_buyerCountInterval);
+  }, 1000);
+  _buyerLockTimer = setTimeout(function () {
+    buyerAutoLock('⏱ 5분이 지나 자동으로 잠겼습니다.');
+  }, BUYER_TIMEOUT_SEC * 1000);
+}
+
+function buyerClearLockTimer() {
+  if (_buyerLockTimer)     { clearTimeout(_buyerLockTimer);      _buyerLockTimer = null; }
+  if (_buyerCountInterval) { clearInterval(_buyerCountInterval); _buyerCountInterval = null; }
+  const timerBox = document.getElementById('buyerTimer');
+  if (timerBox) timerBox.style.display = 'none';
+}
+
+function buyerAutoLock(msg) {
+  if (_buyerLocked) return;
+  _buyerLocked = true;
+  buyerClearLockTimer();
+  const content = document.getElementById('buyerContent');
+  const gate    = document.getElementById('buyerGate');
+  const hint    = document.getElementById('buyerHint');
+  const input   = document.getElementById('buyerPassword');
+  if (gate)  gate.style.display = '';
+  if (hint)  { hint.textContent = msg || ''; hint.className = 'buyer__hint'; }
+  if (input) input.value = '';
+  setTimeout(function () {
+    if (content) content.classList.remove('visible');
+    const gallery = document.getElementById('buyerGallery');
+    const ingBox  = document.getElementById('buyerIngredients');
+    if (gallery) gallery.innerHTML = '';
+    if (ingBox)  ingBox.innerHTML  = '';
+    const pwForm = document.getElementById('buyerPwForm');
+    if (pwForm) pwForm.classList.remove('visible');
+  }, 400);
+}
+
+function buyerSetupOutsideClose() {
+  const section = document.getElementById('buyer');
+  document.addEventListener('click', function (e) {
+    if (_buyerLocked) return;
+    if (section && !section.contains(e.target)) buyerAutoLock('🔒 페이지를 벗어나 자동으로 잠겼습니다.');
+  });
+  window.addEventListener('scroll', function () {
+    if (_buyerLocked || !section) return;
+    const rect = section.getBoundingClientRect();
+    // FIX-05: 여유값 50px 추가 — 로드 시 즉시 잠김 방지
+    if (rect.bottom < -50 || rect.top > window.innerHeight + 50) buyerAutoLock('🔒 페이지를 벗어나 자동으로 잠겼습니다.');
+  }, { passive: true });
+}
+
+// FIX-02: Enter 키 지원
+function initBuyerEnterKey() {
+  const input = document.getElementById('buyerPassword');
+  if (input) {
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') buyerUnlock();
+    });
+  }
+}
+
+function buyerUnlock() {
+  const input   = document.getElementById('buyerPassword');
+  const hint    = document.getElementById('buyerHint');
+  const content = document.getElementById('buyerContent');
+  const gate    = document.getElementById('buyerGate');
+  if (!input || !hint) return;
+  const enteredPw = input.value.trim();
+  if (!enteredPw) return;
+  if (typeof BUYER_CONFIG === 'undefined' || typeof sha256 === 'undefined') {
+    hint.textContent = '❌ 설정 파일을 불러올 수 없습니다. 관리자에게 문의하세요.';
+    hint.className   = 'buyer__hint';
+    return;
+  }
+  hint.textContent = '검증 중...';
+  hint.className   = 'buyer__hint';
+  input.disabled   = true;
+
+  sha256(enteredPw).then(function (hashedInput) {
+    function tryVerify(activePwHash) {
+      input.disabled = false;
+      // 해시 비교 OR HTTP 환경 평문 폴백 비교
+      if (hashedInput === activePwHash || enteredPw === activePwHash) {
+        hint.textContent = '✅ Access granted! Welcome.';
+        hint.className   = 'buyer__hint success';
+        buyerBuildContent();
+        setTimeout(function () {
+          if (gate)    gate.style.display = 'none';
+          if (content) content.classList.add('visible');
+          _buyerLocked = false;
+          buyerStartLockTimer();
+        }, 600);
+      } else {
+        hint.textContent      = '❌ Incorrect password. Please try again.';
+        hint.className        = 'buyer__hint';
+        input.value           = '';
+        input.focus();
+        input.style.animation = 'none';
+        void input.offsetHeight;
+        input.style.animation = 'shake 0.4s ease';
+      }
+    }
+    fetch('tables/buyer_config?search=buyer_password')
+      .then(function (res) { if (!res.ok) throw new Error('no api'); return res.json(); })
+      .then(function (data) {
+        const record = data.data && data.data[0];
+        tryVerify(record ? record.value : BUYER_CONFIG.password);
+      })
+      .catch(function () { tryVerify(BUYER_CONFIG.password); });
+  });
+}
+
+function buyerBuildContent() {
+  const gallery = document.getElementById('buyerGallery');
+  if (gallery && BUYER_CONFIG.images && BUYER_CONFIG.images.length > 0) {
+    gallery.innerHTML = BUYER_CONFIG.images.map(function (img) {
+      const thumbUrl    = 'https://drive.google.com/thumbnail?id=' + img.id + '&sz=w800';
+      const driveUrl    = 'https://drive.google.com/file/d/'       + img.id + '/view';
+      const downloadUrl = 'https://drive.google.com/uc?export=download&id=' + img.id;
+      return `
+        <div class="buyer__gallery-item">
+          <a href="${driveUrl}" target="_blank" class="buyer__img-link">
+            <div class="buyer__img-box">
+              <img src="${thumbUrl}" alt="${img.label}"
+                onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'buyer__img-placeholder\\'>${img.icon}<br>${img.label}</div>'"
+              />
+              <div class="buyer__img-overlay">🔍 View Full Size</div>
+            </div>
+          </a>
+          <span class="buyer__img-label">${img.label}</span>
+          <a class="buyer__download-btn" href="${downloadUrl}" target="_blank">⬇ Download</a>
+        </div>`;
+    }).join('');
+  }
+  const ingBox = document.getElementById('buyerIngredients');
+  if (ingBox && BUYER_CONFIG.ingredients && BUYER_CONFIG.ingredients.length > 0) {
+    ingBox.innerHTML = BUYER_CONFIG.ingredients.map(function (ing) {
+      const driveUrl    = 'https://docs.google.com/spreadsheets/d/' + ing.id + '/view';
+      const downloadUrl = 'https://docs.google.com/spreadsheets/d/' + ing.id + '/export?format=xlsx';
+      return `
+        <div class="buyer__ingredient-card">
+          <div class="buyer__ingredient-btns">
+            <a href="${driveUrl}" target="_blank" class="buyer__ingredient-btn buyer__ingredient-btn--view">🔗 Open in Google Sheets</a>
+            <a href="${downloadUrl}" target="_blank" class="buyer__ingredient-btn buyer__ingredient-btn--dl">⬇ Download Excel</a>
+          </div>
+        </div>`;
+    }).join('');
+  }
+}
+
+// FIX-14: z-index 보정 추가
+function initAllEyeBtns() {
+  document.querySelectorAll('.buyer__eye-btn[data-for]').forEach(function (btn) {
+    const input = document.getElementById(btn.getAttribute('data-for'));
+    if (!input) return;
+    /* position/zIndex는 CSS에서 absolute로 관리 — 인라인 스타일 제거 */
+    function showPw(e) { e.preventDefault(); input.type = 'text';     btn.textContent = '🙈'; }
+    function hidePw()  {                     input.type = 'password'; btn.textContent = '👁'; }
+    btn.addEventListener('mousedown',   showPw);
+    btn.addEventListener('mouseup',     hidePw);
+    btn.addEventListener('mouseleave',  hidePw);
+    btn.addEventListener('touchstart',  showPw, { passive: false });
+    btn.addEventListener('touchend',    hidePw);
+    btn.addEventListener('touchcancel', hidePw);
+    btn.addEventListener('contextmenu', function (e) { e.preventDefault(); });
+  });
+}
+
+(function injectShakeAnimation() {
+  const s = document.createElement('style');
+  s.textContent = '@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-6px)}80%{transform:translateX(6px)}}';
+  document.head.appendChild(s);
+}());
+
+function buyerTogglePwChange() {
+  const form = document.getElementById('buyerPwForm');
+  if (!form) return;
+  if (form.classList.toggle('visible')) {
+    const authStep   = document.getElementById('adminAuthStep');
+    const changeStep = document.getElementById('adminChangeStep');
+    const authMsg    = document.getElementById('adminAuthMsg');
+    const adminPwInp = document.getElementById('adminPw');
+    if (authStep)   authStep.style.display   = 'block';
+    if (changeStep) changeStep.style.display = 'none';
+    if (authMsg)    authMsg.textContent       = '';
+    if (adminPwInp) adminPwInp.value          = '';
+  }
+}
+
+// FIX-12: 빈 값 체크, DOM null 안전 처리
+function adminVerify() {
+  const adminPwEl = document.getElementById('adminPw');
+  const authMsg   = document.getElementById('adminAuthMsg');
+  if (!adminPwEl || !authMsg) return;
+  if (typeof BUYER_CONFIG === 'undefined' || typeof sha256 === 'undefined') {
+    authMsg.textContent = '❌ 설정 파일을 불러올 수 없습니다.';
+    authMsg.className   = 'buyer__pw-msg error';
+    return;
+  }
+  const val = adminPwEl.value.trim();
+  if (!val) {
+    authMsg.textContent = '⚠️ 관리자 비밀번호를 입력하세요.';
+    authMsg.className   = 'buyer__pw-msg error';
+    return;
+  }
+  authMsg.textContent = '인증 중...';
+  authMsg.className   = 'buyer__pw-msg';
+  sha256(val).then(function (hashedInput) {
+    // 해시 비교 + 평문 폴백 동시 비교 (HTTP/HTTPS 모두 대응)
+    const isMatch = (hashedInput && hashedInput === BUYER_CONFIG.adminPassword)
+                 || (val === BUYER_CONFIG.adminPassword);
+    if (isMatch) {
+      authMsg.textContent = '✅ 관리자 인증 완료!';
+      authMsg.className   = 'buyer__pw-msg success';
+      setTimeout(function () {
+        const authStep   = document.getElementById('adminAuthStep');
+        const changeStep = document.getElementById('adminChangeStep');
+        if (authStep)   authStep.style.display   = 'none';
+        if (changeStep) changeStep.style.display = 'block';
+      }, 700);
+    } else {
+      authMsg.textContent         = '❌ 관리자 비밀번호가 틀렸습니다.';
+      authMsg.className           = 'buyer__pw-msg error';
+      adminPwEl.value             = '';
+      adminPwEl.focus();
+      adminPwEl.style.animation   = 'none';
+      void adminPwEl.offsetHeight;
+      adminPwEl.style.animation   = 'shake 0.4s ease';
+    }
+  });
+}
+
+function buyerChangePassword() {
+  const newPwEl   = document.getElementById('pwNew');
+  const confirmEl = document.getElementById('pwConfirm');
+  const msg       = document.getElementById('buyerPwMsg');
+  if (!newPwEl || !confirmEl || !msg) return;
+  if (newPwEl.value.length < 4) {
+    msg.textContent = '❌ 새 비밀번호는 최소 4자 이상 입력해 주세요.';
+    msg.className   = 'buyer__pw-msg error';
+    newPwEl.focus();
+    return;
+  }
+  if (newPwEl.value !== confirmEl.value) {
+    msg.textContent  = '❌ 새 비밀번호가 일치하지 않습니다.';
+    msg.className    = 'buyer__pw-msg error';
+    confirmEl.value  = '';
+    confirmEl.focus();
+    return;
+  }
+  const newPwPlain = newPwEl.value;
+  newPwEl.value    = '';
+  confirmEl.value  = '';
+  msg.textContent  = '저장 중...';
+  msg.className    = 'buyer__pw-msg';
+  sha256(newPwPlain).then(function (newPwHash) {
+    if (!newPwHash) {
+      msg.textContent = '❌ 보안 해시 계산 불가. HTTPS 환경인지 확인하세요.';
+      msg.className   = 'buyer__pw-msg error';
+      return;
+    }
+    fetch('tables/buyer_config?search=buyer_password')
+      .then(function (res) { if (!res.ok) throw new Error('no api'); return res.json(); })
+      .then(function (data) {
+        const record = data.data && data.data[0];
+        if (record && record.id) {
+          return fetch('tables/buyer_config/' + record.id, {
+            method: 'PATCH', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ value: newPwHash })
+          });
+        } else {
+          // FIX-13: id 필드 제거 (API 시스템 필드와 충돌 방지)
+          return fetch('tables/buyer_config', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ key: 'buyer_password', value: newPwHash, memo: '바이어 접근 비밀번호(해시)' })
+          });
+        }
+      })
+      .then(function (res) { if (!res.ok) throw new Error('save error'); return res.json(); })
+      .then(function () {
+        if (typeof BUYER_CONFIG !== 'undefined') BUYER_CONFIG.password = newPwHash;
+        msg.textContent = '✅ 비밀번호가 변경되었습니다! (새로고침 후에도 유지됩니다)';
+        msg.className   = 'buyer__pw-msg success';
+        _resetAdminForm(msg);
+      })
+      .catch(function () {
+        if (typeof BUYER_CONFIG !== 'undefined') BUYER_CONFIG.password = newPwHash;
+        msg.textContent = '⚠️ 서버 저장 실패. 현재 세션에서만 임시 적용됩니다. (새로고침 시 초기화)';
+        msg.className   = 'buyer__pw-msg error';
+        _resetAdminForm(msg);
+      });
+  });
+}
+
+// FIX-11: DOM null 체크 추가
+function _resetAdminForm(msg) {
+  setTimeout(function () {
+    const form       = document.getElementById('buyerPwForm');
+    const authStep   = document.getElementById('adminAuthStep');
+    const changeStep = document.getElementById('adminChangeStep');
+    if (form)       form.classList.remove('visible');
+    if (authStep)   authStep.style.display   = 'block';
+    if (changeStep) changeStep.style.display = 'none';
+    if (msg)        msg.textContent           = '';
+  }, 3000);
+}
+
+// FIX-06: Drive URL은 pathname 비교 불가 → src 직접 비교
+function heroHover(imgEl) {
+  const mainImg   = document.getElementById('heroMainImg');
+  const mainLabel = document.getElementById('heroMainLabel');
+  if (!mainImg || !imgEl) return;
+  const wrapEl = imgEl.closest('.hero__img-side-wrap') || imgEl;
+  if (mainImg.src === imgEl.src) return;
+  mainImg.classList.add('switching');
+  setTimeout(function () {
+    mainImg.src = imgEl.src;
+    mainImg.alt = imgEl.alt;
+    const newColor           = wrapEl.dataset.color || '#ffffff';
+    mainImg.style.background = newColor;
+    mainImg.dataset.color    = newColor;
+    if (mainLabel) {
+      mainLabel.textContent     = wrapEl.dataset.label || imgEl.alt || '';
+      mainLabel.style.animation = 'none';
+      void mainLabel.offsetHeight;
+      mainLabel.style.animation = '';
+    }
+    mainImg.classList.remove('switching');
+  }, 280);
+  document.querySelectorAll('.hero__img-side-wrap').forEach(function (el) { el.classList.remove('active-side'); });
+  wrapEl.classList.add('active-side');
+}
+
+// FIX-07, FIX-08: bigImg 클릭 시 overlay 닫힘 버그 수정, closeBtn을 button으로 변경
+function heroZoom(imgEl) {
+  const existing = document.getElementById('heroZoomOverlay');
+  if (existing) existing.remove();
+  const overlay      = document.createElement('div');
+  overlay.className  = 'hero-zoom-overlay';
+  overlay.id         = 'heroZoomOverlay';
+  const closeBtn     = document.createElement('button');
+  closeBtn.className = 'hero-zoom-close';
+  closeBtn.innerHTML = '✕';
+  closeBtn.setAttribute('aria-label', '닫기');
+  closeBtn.onclick   = function (e) {
+    e.stopPropagation();
+    overlay.remove();
+    document.removeEventListener('keydown', escClose);
+  };
+  const bigImg            = document.createElement('img');
+  bigImg.src              = imgEl.src;
+  bigImg.alt              = imgEl.alt || '제품 이미지';
+  bigImg.style.background = imgEl.dataset.color || '#ffffff';
+  // FIX-07: 이미지 클릭 시 닫힘 방지
+  bigImg.addEventListener('click', function (e) { e.stopPropagation(); });
+  overlay.appendChild(bigImg);
+  overlay.appendChild(closeBtn);
+  overlay.addEventListener('click', function () {
+    overlay.remove();
+    document.removeEventListener('keydown', escClose);
+  });
+  function escClose(e) {
+    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escClose); }
+  }
+  document.addEventListener('keydown', escClose);
+  document.body.appendChild(overlay);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  buyerSetupOutsideClose();
+  initAllEyeBtns();
+  initBuyerEnterKey(); // FIX-02: Enter 키 지원
+
+  const stickyNav = document.getElementById('stickyNav');
+  const navLinks  = stickyNav ? stickyNav.querySelectorAll('a') : [];
+  const sections  = document.querySelectorAll('section[id]');
+
+  function updateStickyNav() {
+    if (!stickyNav) return;
+    const intro = document.getElementById('intro');
+    stickyNav.classList.toggle('visible',
+      intro ? intro.getBoundingClientRect().bottom <= 0 : window.scrollY > 100
+    );
+  }
+  function updateActiveNavLink() {
+    let cur = '';
+    sections.forEach(function (s) {
+      if (s.getBoundingClientRect().top <= 120) cur = s.getAttribute('id');
+    });
+    navLinks.forEach(function (link) {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + cur);
+    });
+  }
+  window.addEventListener('scroll', function () { updateStickyNav(); updateActiveNavLink(); }, { passive: true });
+  updateStickyNav();
+
+  const fadeTargets = document.querySelectorAll(
+    '.benefits__card, .flavor-card, .convenience__card, .texture__chip, .brand-story__stat'
+  );
+  fadeTargets.forEach(function (el, i) {
+    el.classList.add('fade-up');
+    el.style.transitionDelay = ((i % 4) * 0.1) + 's';
+  });
+  const fadeObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); fadeObserver.unobserve(entry.target); }
+    });
+  }, { threshold: 0.15 });
+  fadeTargets.forEach(function (el) { fadeObserver.observe(el); });
+
+  const flavorBtns = document.querySelectorAll('.flavor-btn');
+  const tableCells = document.querySelectorAll('.comparison__table [data-col]');
+  flavorBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const flavor = this.dataset.flavor;
+      flavorBtns.forEach(function (b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      tableCells.forEach(function (cell) {
+        if (flavor === 'all') { cell.style.display = ''; cell.classList.remove('active'); }
+        else { const match = cell.dataset.col === flavor; cell.style.display = match ? '' : 'none'; cell.classList.toggle('active', match); }
+      });
+    });
+  });
+
+  const ratingBars  = document.querySelectorAll('.rating-bar div');
+  const barWidthMap = new Map();
+  ratingBars.forEach(function (bar) { barWidthMap.set(bar, bar.style.width); bar.style.width = '0%'; });
+  const barObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.rating-bar div').forEach(function (bar, i) {
+          setTimeout(function () { bar.style.width = barWidthMap.get(bar) || '50%'; }, i * 100);
+        });
+        barObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  const compTable = document.querySelector('.comparison__table');
+  if (compTable) barObserver.observe(compTable);
+
+  navLinks.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      const href = this.getAttribute('href');
+      if (!href || href.charAt(0) !== '#') return;
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) window.scrollTo({ top: target.getBoundingClientRect().top + window.pageYOffset - 60, behavior: 'smooth' });
+    });
+  });
+
+  // FIX-09: arguments.callee 제거 → named handler 사용
+  const heroMainImg = document.getElementById('heroMainImg');
+  if (heroMainImg) {
+    const fallbacks   = [
+      'https://dindin1.cafe24.com/sevenstarmall/jelly/pu-cat-gr-90g-6ea_2.jpg',
+      'https://sitem.ssgcdn.com/53/76/14/item/1000624147653_i1_1200.jpg',
+      'https://dindin1.cafe24.com/sevenstarmall/jelly/pu-cat-sm-90g-6ea_2.jpg'
+    ];
+    let fallbackIndex = 0;
+    function onHeroImgError() {
+      if (fallbackIndex < fallbacks.length) {
+        heroMainImg.src = fallbacks[fallbackIndex++];
+      } else {
+        heroMainImg.removeEventListener('error', onHeroImgError);
+        heroMainImg.style.display = 'none';
+      }
+    }
+    heroMainImg.addEventListener('error', onHeroImgError);
+  }
+
+  document.querySelectorAll('.flavor-card').forEach(function (card) {
+    card.addEventListener('mousemove', function (e) {
+      const rect = card.getBoundingClientRect();
+      const x    = ((e.clientX - rect.left) / rect.width  - 0.5) * 10;
+      const y    = ((e.clientY - rect.top)  / rect.height - 0.5) * 10;
+      card.style.transform  = 'translateY(-10px) scale(1.02) rotateX(' + (-y) + 'deg) rotateY(' + x + 'deg)';
+      card.style.transition = 'transform 0.1s';
+    });
+    card.addEventListener('mouseleave', function () {
+      card.style.transform  = '';
+      card.style.transition = 'transform 0.35s, box-shadow 0.35s';
+    });
+  });
+
+  document.querySelectorAll('.texture__blob').forEach(function (blob) {
+    blob.style.cursor = 'pointer';
+    blob.addEventListener('click', function () {
+      this.style.transform = 'scale(1.3)';
+      setTimeout(function () { blob.style.transform = ''; }, 300);
+    });
+  });
+
+  const headerObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity   = '1';
+        entry.target.style.transform = 'translateY(0)';
+        headerObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  document.querySelectorAll('.section-header').forEach(function (h) {
+    h.style.cssText += 'opacity:0;transform:translateY(30px);transition:opacity 0.7s ease,transform 0.7s ease;';
+    headerObserver.observe(h);
+  });
+
+  const imgStack = document.querySelector('.brand-story__img-stack');
+  if (imgStack) {
+    imgStack.querySelectorAll('.brand-story__img').forEach(function (img) {
+      img.dataset.transform = img.style.transform;
+      img.style.opacity     = '0';
+      img.style.transition  = 'opacity 0.6s ease, transform 0.4s ease';
+    });
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('.brand-story__img').forEach(function (img, i) {
+            setTimeout(function () {
+              img.style.opacity   = '1';
+              img.style.transform = img.dataset.transform || '';
+            }, i * 150);
+          });
+        }
+      });
+    }, { threshold: 0.3 }).observe(imgStack);
+  }
+});
+  </script>
+</body>
+</html>
